@@ -12,7 +12,35 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B64D58E1125B7486005A2A3F /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64D58DC125B746E005A2A3F /* Cedar.framework */; };
+		B64D58E8125B750D005A2A3F /* Cedar.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64D58DC125B746E005A2A3F /* Cedar.framework */; };
+		B64D58F5125B7595005A2A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D58F4125B7595005A2A3F /* main.m */; };
+		B64D58F7125B75DF005A2A3F /* FooSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D58F6125B75DF005A2A3F /* FooSpec.m */; };
+		B64D593A125B8B89005A2A3F /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D5939125B8B89005A2A3F /* Foo.m */; };
+		B64D593B125B8B89005A2A3F /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = B64D5939125B8B89005A2A3F /* Foo.m */; };
+		B64D5945125B8CAA005A2A3F /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */; };
+		B64D5949125B8CD6005A2A3F /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64D5948125B8CD6005A2A3F /* OCMock.framework */; };
+		B64D597E125B8D4D005A2A3F /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */; };
+		B64D597F125B8D52005A2A3F /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64D5948125B8CD6005A2A3F /* OCMock.framework */; };
+		B6C39951125CED3F00C8A1DB /* GReaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C39950125CED3F00C8A1DB /* GReaderSpec.m */; };
+		B6C39960125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
+		B6C39961125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B64D58F2125B751C005A2A3F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B64D58E8125B750D005A2A3F /* Cedar.framework in CopyFiles */,
+				B64D597E125B8D4D005A2A3F /* OCHamcrest.framework in CopyFiles */,
+				B64D597F125B8D52005A2A3F /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -27,6 +55,17 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* CedarDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CedarDemo-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CedarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64D58D7125B7456005A2A3F /* Specs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Specs; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64D58DC125B746E005A2A3F /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = /Users/robertwalker/Source/Cocoa/Frameworks/Cedar/build/Release/Cedar.framework; sourceTree = "<absolute>"; };
+		B64D58F4125B7595005A2A3F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B64D58F6125B75DF005A2A3F /* FooSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooSpec.m; sourceTree = "<group>"; };
+		B64D5938125B8B89005A2A3F /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		B64D5939125B8B89005A2A3F /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = /Users/robertwalker/Source/Cocoa/Frameworks/Cedar/build/Release/OCHamcrest.framework; sourceTree = "<absolute>"; };
+		B64D5948125B8CD6005A2A3F /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Users/robertwalker/Source/Cocoa/Frameworks/Cedar/build/Release/OCMock.framework; sourceTree = "<absolute>"; };
+		B6C39950125CED3F00C8A1DB /* GReaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReaderSpec.m; sourceTree = "<group>"; };
+		B6C3995E125CF96200C8A1DB /* GReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GReader.h; sourceTree = "<group>"; };
+		B6C3995F125CF96200C8A1DB /* GReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +77,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B64D58D5125B7456005A2A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D58E1125B7486005A2A3F /* Cedar.framework in Frameworks */,
+				B64D5945125B8CAA005A2A3F /* OCHamcrest.framework in Frameworks */,
+				B64D5949125B8CD6005A2A3F /* OCMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +95,10 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* CedarDemoAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* CedarDemoAppDelegate.m */,
+				B64D5938125B8B89005A2A3F /* Foo.h */,
+				B64D5939125B8B89005A2A3F /* Foo.m */,
+				B6C3995E125CF96200C8A1DB /* GReader.h */,
+				B6C3995F125CF96200C8A1DB /* GReader.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -72,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* CedarDemo.app */,
+				B64D58D7125B7456005A2A3F /* Specs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +137,7 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				B64D58F3125B7539005A2A3F /* Specs */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = CedarDemo;
@@ -116,6 +171,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B64D58F3125B7539005A2A3F /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				B64D594C125B8CDE005A2A3F /* Frameworks */,
+				B64D58F4125B7595005A2A3F /* main.m */,
+				B64D58F6125B75DF005A2A3F /* FooSpec.m */,
+				B6C39950125CED3F00C8A1DB /* GReaderSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		B64D594C125B8CDE005A2A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64D58DC125B746E005A2A3F /* Cedar.framework */,
+				B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */,
+				B64D5948125B8CD6005A2A3F /* OCMock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +213,23 @@
 			productReference = 8D1107320486CEB800E47090 /* CedarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B64D58D6125B7456005A2A3F /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64D58E0125B746E005A2A3F /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				B64D58D4125B7456005A2A3F /* Sources */,
+				B64D58D5125B7456005A2A3F /* Frameworks */,
+				B64D58F2125B751C005A2A3F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = B64D58D7125B7456005A2A3F /* Specs */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +250,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* CedarDemo */,
+				B64D58D6125B7456005A2A3F /* Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +274,20 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* CedarDemoAppDelegate.m in Sources */,
+				B64D593B125B8B89005A2A3F /* Foo.m in Sources */,
+				B6C39961125CF96200C8A1DB /* GReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64D58D4125B7456005A2A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64D58F5125B7595005A2A3F /* main.m in Sources */,
+				B64D58F7125B75DF005A2A3F /* FooSpec.m in Sources */,
+				B64D593A125B8B89005A2A3F /* Foo.m in Sources */,
+				B6C39951125CED3F00C8A1DB /* GReaderSpec.m in Sources */,
+				B6C39960125CF96200C8A1DB /* GReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,11 +313,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B64D58D9125B7456005A2A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Cocoa/Frameworks/Cedar/build/Release\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Specs;
+			};
+			name = Debug;
+		};
+		B64D58DA125B7456005A2A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Cocoa/Frameworks/Cedar/build/Release\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Specs;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Cocoa/Frameworks/Cedar/build/Release\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -227,6 +393,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Cocoa/Frameworks/Cedar/build/Release\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CedarDemo_Prefix.pch;
@@ -265,6 +435,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B64D58E0125B746E005A2A3F /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64D58D9125B7456005A2A3F /* Debug */,
+				B64D58DA125B7456005A2A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CedarDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
