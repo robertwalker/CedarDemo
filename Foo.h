@@ -14,6 +14,5 @@
 }
 
 - (NSString *)sayHello;
-- (NSNumber *)addX:(NSNumber *)x Y:(NSNumber *)y;
 
 @end

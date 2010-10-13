@@ -16,9 +16,4 @@
     return @"Hi, my name is Who?";
 }
 
-- (NSNumber *)addX:(NSNumber *)x Y:(NSNumber *)y;
-{
-    return [NSNumber numberWithInt:([x intValue] + [y intValue])];
-}
-
 @end
