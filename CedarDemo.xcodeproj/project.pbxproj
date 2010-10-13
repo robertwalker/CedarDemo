@@ -22,6 +22,9 @@
 		B64D5949125B8CD6005A2A3F /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64D5948125B8CD6005A2A3F /* OCMock.framework */; };
 		B64D597E125B8D4D005A2A3F /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */; };
 		B64D597F125B8D52005A2A3F /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64D5948125B8CD6005A2A3F /* OCMock.framework */; };
+		B657A6E8126626F900AF256D /* UserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B657A6E7126626F900AF256D /* UserSpec.m */; };
+		B657A6ED1266297400AF256D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B657A6EC1266297400AF256D /* User.m */; };
+		B657A6EE1266297400AF256D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B657A6EC1266297400AF256D /* User.m */; };
 		B6C39951125CED3F00C8A1DB /* GReaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C39950125CED3F00C8A1DB /* GReaderSpec.m */; };
 		B6C39960125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
 		B6C39961125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
@@ -66,6 +69,9 @@
 		B64D5939125B8B89005A2A3F /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 		B64D5944125B8CAA005A2A3F /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = /Users/robertwalker/Source/Cocoa/Frameworks/Cedar/build/Release/OCHamcrest.framework; sourceTree = "<absolute>"; };
 		B64D5948125B8CD6005A2A3F /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = /Users/robertwalker/Source/Cocoa/Frameworks/Cedar/build/Release/OCMock.framework; sourceTree = "<absolute>"; };
+		B657A6E7126626F900AF256D /* UserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSpec.m; sourceTree = "<group>"; };
+		B657A6EB1266297400AF256D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B657A6EC1266297400AF256D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		B6C39950125CED3F00C8A1DB /* GReaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReaderSpec.m; sourceTree = "<group>"; };
 		B6C3995E125CF96200C8A1DB /* GReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GReader.h; sourceTree = "<group>"; };
 		B6C3995F125CF96200C8A1DB /* GReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReader.m; sourceTree = "<group>"; };
@@ -107,6 +113,8 @@
 				B6C3995F125CF96200C8A1DB /* GReader.m */,
 				B6E72D721264CED700FF34B7 /* Calculator.h */,
 				B6E72D731264CED700FF34B7 /* Calculator.m */,
+				B657A6EB1266297400AF256D /* User.h */,
+				B657A6EC1266297400AF256D /* User.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 				B64D58F6125B75DF005A2A3F /* FooSpec.m */,
 				B6C39950125CED3F00C8A1DB /* GReaderSpec.m */,
 				B6E72D691264CD0700FF34B7 /* CalculatorSpec.m */,
+				B657A6E7126626F900AF256D /* UserSpec.m */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -286,6 +295,7 @@
 				B64D593B125B8B89005A2A3F /* Foo.m in Sources */,
 				B6C39961125CF96200C8A1DB /* GReader.m in Sources */,
 				B6E72D751264CED700FF34B7 /* Calculator.m in Sources */,
+				B657A6EE1266297400AF256D /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +310,8 @@
 				B6C39960125CF96200C8A1DB /* GReader.m in Sources */,
 				B6E72D6A1264CD0700FF34B7 /* CalculatorSpec.m in Sources */,
 				B6E72D741264CED700FF34B7 /* Calculator.m in Sources */,
+				B657A6E8126626F900AF256D /* UserSpec.m in Sources */,
+				B657A6ED1266297400AF256D /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
