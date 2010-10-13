@@ -25,6 +25,9 @@
 		B6C39951125CED3F00C8A1DB /* GReaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C39950125CED3F00C8A1DB /* GReaderSpec.m */; };
 		B6C39960125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
 		B6C39961125CF96200C8A1DB /* GReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3995F125CF96200C8A1DB /* GReader.m */; };
+		B6E72D6A1264CD0700FF34B7 /* CalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E72D691264CD0700FF34B7 /* CalculatorSpec.m */; };
+		B6E72D741264CED700FF34B7 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E72D731264CED700FF34B7 /* Calculator.m */; };
+		B6E72D751264CED700FF34B7 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E72D731264CED700FF34B7 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +69,9 @@
 		B6C39950125CED3F00C8A1DB /* GReaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReaderSpec.m; sourceTree = "<group>"; };
 		B6C3995E125CF96200C8A1DB /* GReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GReader.h; sourceTree = "<group>"; };
 		B6C3995F125CF96200C8A1DB /* GReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GReader.m; sourceTree = "<group>"; };
+		B6E72D691264CD0700FF34B7 /* CalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorSpec.m; sourceTree = "<group>"; };
+		B6E72D721264CED700FF34B7 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		B6E72D731264CED700FF34B7 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 				B64D5939125B8B89005A2A3F /* Foo.m */,
 				B6C3995E125CF96200C8A1DB /* GReader.h */,
 				B6C3995F125CF96200C8A1DB /* GReader.m */,
+				B6E72D721264CED700FF34B7 /* Calculator.h */,
+				B6E72D731264CED700FF34B7 /* Calculator.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 				B64D58F4125B7595005A2A3F /* main.m */,
 				B64D58F6125B75DF005A2A3F /* FooSpec.m */,
 				B6C39950125CED3F00C8A1DB /* GReaderSpec.m */,
+				B6E72D691264CD0700FF34B7 /* CalculatorSpec.m */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -276,6 +285,7 @@
 				256AC3DA0F4B6AC300CF3369 /* CedarDemoAppDelegate.m in Sources */,
 				B64D593B125B8B89005A2A3F /* Foo.m in Sources */,
 				B6C39961125CF96200C8A1DB /* GReader.m in Sources */,
+				B6E72D751264CED700FF34B7 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +298,8 @@
 				B64D593A125B8B89005A2A3F /* Foo.m in Sources */,
 				B6C39951125CED3F00C8A1DB /* GReaderSpec.m in Sources */,
 				B6C39960125CF96200C8A1DB /* GReader.m in Sources */,
+				B6E72D6A1264CD0700FF34B7 /* CalculatorSpec.m in Sources */,
+				B6E72D741264CED700FF34B7 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

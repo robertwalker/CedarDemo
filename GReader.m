@@ -11,14 +11,16 @@
 
 @implementation GReader
 
-- (void)authenticateWithUsername:(NSString *)username password:(NSString *)password
+- (NSString *)authenticateWithUsername:(NSString *)username password:(NSString *)password
 {
-    [self post:[NSString stringWithFormat:@"Email=%@&Password=@", username, password]];
+    NSString *response;
+    response = [self post:[NSString stringWithFormat:@"Email=%@&Password=@", username, password]];
+    return response;
 }
 
 - (NSString *)post:(NSString *)request
 {
-    return @"I'm the real deal response!";
+    return @"I'm the real deal response from web service!";
 }
 
 @end

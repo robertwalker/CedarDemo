@@ -21,7 +21,7 @@ describe(@"GReader", ^{
     beforeEach(^{
         gr = [[GReader alloc] init];
         mock = [OCMockObject partialMockForObject:gr];
-        [[[mock expect] andReturn:@"Hi I'm a fake response"] post:[OCMArg any]];
+        [[[mock expect] andReturn:@"I'm a fake response."] post:[OCMArg any]];
     });
 
     afterEach(^{
@@ -29,8 +29,13 @@ describe(@"GReader", ^{
 	});
 
     it(@"should authenticate", ^{
-        [gr authenticateWithUsername:@"robert" password:@"password"];
+        NSString *response;
+        response = [gr authenticateWithUsername:@"robert" password:@"password"];
         [mock verify];
+
+        // A sanity check to make sure the mock is intervening
+        assertThat(response, isNot(@"I'm the real deal response from web service!"));
+        assertThat(response, is(@"I'm a fake response."));
     });
 });
 

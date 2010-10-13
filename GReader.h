@@ -13,7 +13,7 @@
 
 }
 
-- (void)authenticateWithUsername:(NSString *)username password:(NSString *)password;
+- (NSString *)authenticateWithUsername:(NSString *)username password:(NSString *)password;
 - (NSString *)post:(NSString *)request;
 
 @end
