@@ -11,9 +11,9 @@
 
 @implementation Foo
 
-- (NSString *)say:(NSString *)greeting
+- (NSString *)sayHello
 {
-    return greeting;
+    return @"Hi, my name is Who?";
 }
 
 - (NSNumber *)addX:(NSNumber *)x Y:(NSNumber *)y;

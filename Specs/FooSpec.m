@@ -26,8 +26,8 @@ describe(@"Foo", ^{
         [foo release];
     });
 
-    it(@"should say \"Hello World\"", ^{
-        assertThat([foo say:@"Hello World"], equalTo(@"Hello World"));
+    it(@"should say hello", ^{
+        assertThat([foo sayHello], equalTo(@"Hi, my name is Foo."));
     });
 
     it(@"should add two numbers", ^{

@@ -13,7 +13,7 @@
 
 }
 
-- (NSString *)say:(NSString *)greeting;
+- (NSString *)sayHello;
 - (NSNumber *)addX:(NSNumber *)x Y:(NSNumber *)y;
 
 @end
