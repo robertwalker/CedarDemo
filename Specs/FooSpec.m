@@ -17,12 +17,10 @@ describe(@"Foo", ^{
     __block Foo *foo;
 
     beforeEach(^{
-        //NSLog(@"Before each...");
         foo = [[Foo alloc] init];
     });
     
     afterEach(^{
-        //NSLog(@"After each...");
         [foo release];
     });
 
